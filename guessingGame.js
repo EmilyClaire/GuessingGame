@@ -1,6 +1,4 @@
-/* **** Global Variables **** */
-// try to elminate these global variables in your project, these are here just to start.
-
+(function(){
 var playersGuess,
     winningNumber  = generateWinningNumber();
 
@@ -116,3 +114,4 @@ $(document).on("keypress",  function(event){
 });
 
 });
+})();
