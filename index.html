@@ -2,6 +2,10 @@
 <html>
 	<head>
 		<link type = "text/css" rel = "stylesheet" href = "main.css">
+		<script src= "jquery-1.12.4.min.js"></script>
+		<script src = "guessingGame.js"></script>
+		</script>>
+
 		<title>Emily's Guessing Game</title>
 	</head>
 	<body>
@@ -13,10 +17,14 @@
 				 Your Guess:
 				<input type="text" name = "input">
 				<div class = "form-buttons">
-					<button type = "button">Give Up</button>
-					<button type = "button">Check</button>
+					<button type = "button" id = 'hint-button'>Hint</button>
+					<button type = "button">Submit Guess</button>
+               <button type = "button" id = 'again-button'>Play Again?</button>
 				</div>
 			</form>
+         <br>
+         <p id = 'result'>Welcome!</p>
 		</div>
+
 	</body>
 </html>

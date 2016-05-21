@@ -30,3 +30,12 @@ h1{
 .form-buttons{
 	padding-top: 25px;
 }
+
+.winner{
+   background-color: #49B687;
+}
+
+.loser{
+   background-color: #986945;
+   color: #000000;
+}
